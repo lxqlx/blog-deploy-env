@@ -1,11 +1,12 @@
 ---
 title: 自学JavaScript全栈工程师培训教程
-date: 2016-12-06 12:23:07
 tags:
   - JavaScript
   - React
   - Node
   - 自学
+abbrlink: f32b0be7
+date: 2016-12-06 12:23:07
 ---
 自学内容来自[阮一峰的网络日志](http://www.ruanyifeng.com/blog/2016/11/javascript.html)
 
