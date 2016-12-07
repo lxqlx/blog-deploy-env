@@ -71,3 +71,8 @@ deploy:
   type: git
   repo: https://github.com/lxqlx/lxqlx.github.io.git
   branch: master
+#hexo sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
