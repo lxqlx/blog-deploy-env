@@ -64,3 +64,5 @@ View 是 State 的输出，`view = f(state)`
 只要 State 发生变化，View 也要随之变化
 React 的本质是将图形界面（GUI）函数化
 {% endcq %}
+
+看了这几句话，顿时就明白了为啥React的State和Component之间的关系了。如何更新View也就一目了然了。以及后面的MobX架构和Redux架构也就不难理解了。学了这个教程，就不怕听不同别人在说什么了，也为进一步学习奠定了基础。期待能有更深入的教程。
