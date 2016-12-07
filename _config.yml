@@ -76,3 +76,10 @@ sitemap:
   path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
+nofollow:
+  enable: true
+  exclue:
+    - www.ubyte.me
+    - ubyte.me
+    - www.discourse.ubyte.me
+    - discourse.ubyte.me
