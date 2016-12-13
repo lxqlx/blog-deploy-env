@@ -85,7 +85,7 @@ Consumer会分成Consumer Group。被订阅的消息只会传递给Consumer Grou
 - 并且具有“光杆司令”的容错，复制因子N，容忍N-1个Server挂掉(容错性)。
 
 
-## Kafka作为消息系统：
+## Kafka作为消息系统
 
 传统的消息系统分两种模式：
 1. 队列模式： 平衡分配任务给多个Consumer扩展处理；但是不能发送给多个Consumer。
@@ -97,7 +97,7 @@ Kafka归纳了两种模式，对于不同的Consumer Group，是Pub/Sub发布订
 
 值得注意的是，一个Consumer Group里的Consumer数量不能多余Partition数量，不能一个Partition有多个来自同一个Group的Consumer。
 
-## Kafka作为存储系统：
+## Kafka作为存储系统
 Kafka把记录存储到硬盘并复制保证容错，并用写操作确认来保证producer发布的记录被完全复制完毕。
 
 Kafka性能不收数据大小影响，即使对TB级以上数据也能保证常数时间复杂度的访问性能。
